@@ -4,13 +4,6 @@ The Frankfurter API tracks foreign exchange reference rates published by the [Eu
 
 ## Installation
 
-**From PyPI** (current stable release):
-
-```bash
-pip install frankfurter
-uv add frankfurter
-```
-
 **From GitHub** (this version, with v1/v2 support):
 
 ```bash
