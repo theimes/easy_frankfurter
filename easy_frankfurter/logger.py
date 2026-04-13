@@ -1,4 +1,4 @@
 import logging
 
-Logger = logging.getLogger("frankfurter")
+Logger = logging.getLogger("easy_frankfurter")
 Logger.addHandler(logging.NullHandler())

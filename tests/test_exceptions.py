@@ -1,5 +1,5 @@
 import pytest
-from frankfurter.exceptions import FrankfurterCallFailedException, UnknownCurrencyException
+from easy_frankfurter.exceptions import FrankfurterCallFailedException, UnknownCurrencyException
 
 
 def test_frankfurter_exception_is_catchable_by_type():

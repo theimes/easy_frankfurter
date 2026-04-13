@@ -2,10 +2,10 @@ import json
 import pytest
 from unittest.mock import patch, MagicMock
 
-from frankfurter import FrankfurterEngine
-from frankfurter._v1_engine import FrankfurterV1Engine
-from frankfurter._v2_engine import FrankfurterV2Engine
-from frankfurter.models import v1, v2
+from easy_frankfurter import FrankfurterEngine
+from easy_frankfurter._v1_engine import FrankfurterV1Engine
+from easy_frankfurter._v2_engine import FrankfurterV2Engine
+from easy_frankfurter.models import v1, v2
 
 
 # ---------------------------------------------------------------------------
@@ -62,7 +62,7 @@ def mock_urlopen(response_data):
     return MagicMock(return_value=mock_response)
 
 
-PATCH = "frankfurter._base_engine.urlopen"
+PATCH = "easy_frankfurter._base_engine.urlopen"
 
 
 # ---------------------------------------------------------------------------

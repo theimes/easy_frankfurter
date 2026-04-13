@@ -1,3 +1,35 @@
+Metadata-Version: 2.4
+Name: easy_frankfurter
+Version: 1.0.0
+Summary: A lightweight Python wrapper for the Frankfurter API with v1 and v2 support
+Home-page: https://github.com/theimes/frankfurter
+Author: Thorsten Heimes
+License: MIT
+Project-URL: Homepage, https://github.com/theimes/frankfurter
+Project-URL: Repository, https://github.com/theimes/frankfurter
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
 # frankfurter — Unofficial Lightweight Wrapper for the Frankfurter API
 
 The Frankfurter API tracks foreign exchange reference rates published by the [European Central Bank](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html). The data refreshes around 16:00 CET every working day.
